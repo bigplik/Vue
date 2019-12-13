@@ -4,3 +4,5 @@ expressions examples
 {{ firstName + '' + lastName }}
 {{ clicked ? true : false }} //ternary operators
 {{ message.split('').reverse().join('') }} //JS methods
+
+Vue is reactive, it can send data to every place that data is linked
