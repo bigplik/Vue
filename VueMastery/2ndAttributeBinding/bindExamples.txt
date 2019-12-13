@@ -1,0 +1,9 @@
+v-bind:alt="description" //can be write in short cut
+:alt="description"
+
+//other examples
+:href="url"
+:title="toolTip"
+:class="isActive"
+:style="isStyled"
+:disabled="isDisabled"
