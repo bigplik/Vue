@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<script src="style.css"></script>
+
+<body>
+        <div class="nav-bar"></div>
+
+        <div id="app">
+          
+          <div class="product">
+          
+            <div class="product-image">
+              <img :src="image" />
+            </div>
+        
+            <div class="product-info">
+              <h1>{{ product }}</h1>
+              <a :href="link" target="_blank">More products like this</a>
+            </div>
+            
+          </div>
+            
+        </div> 
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
