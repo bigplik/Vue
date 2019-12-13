@@ -1,0 +1,6 @@
+expressions examples
+
+{{ product + '?'}}
+{{ firstName + '' + lastName }}
+{{ clicked ? true : false }} //ternary operators
+{{ message.split('').reverse().join('') }} //JS methods
